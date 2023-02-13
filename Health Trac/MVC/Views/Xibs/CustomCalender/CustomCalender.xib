@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomCalender" customModule="GBS___Saliva_Scanner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="625" height="602"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1CY-L0-xxI">
+                    <rect key="frame" x="0.0" y="0.0" width="625" height="602"/>
+                    <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNf-Fo-NPY">
+                            <rect key="frame" x="0.0" y="0.0" width="625" height="602"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="omx-Kw-yxU">
+                                <rect key="frame" x="0.0" y="0.0" width="625" height="602"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <blurEffect style="prominent"/>
+                        </visualEffectView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PsY-SB-5gw" customClass="FSCalendar">
+                            <rect key="frame" x="20" y="18" width="585" height="340"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="340" id="zdN-dF-aUS"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="todayColor">
+                                    <color key="value" systemColor="systemTealColor"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="weekdayHeight">
+                                    <real key="value" value="65"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivv-n5-HZf">
+                            <rect key="frame" x="20" y="18" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="4pM-1N-om7"/>
+                                <constraint firstAttribute="height" constant="50" id="whn-Ja-lx1"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="ic_back"/>
+                            <connections>
+                                <action selector="previousMonthButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="GBj-8b-nbC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Tc-mz-vtf">
+                            <rect key="frame" x="555" y="18" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="JM2-3B-lNi"/>
+                                <constraint firstAttribute="height" constant="50" id="h4i-Lx-8Yb"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="ic_next"/>
+                            <connections>
+                                <action selector="nextMonthButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Iu4-dg-04y"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="PsY-SB-5gw" firstAttribute="leading" secondItem="1CY-L0-xxI" secondAttribute="leading" constant="20" id="3Br-5F-Ux1"/>
+                        <constraint firstItem="PsY-SB-5gw" firstAttribute="top" secondItem="1CY-L0-xxI" secondAttribute="top" constant="18" id="BcS-Gh-oHR"/>
+                        <constraint firstItem="ivv-n5-HZf" firstAttribute="leading" secondItem="PsY-SB-5gw" secondAttribute="leading" id="N70-8G-NQj"/>
+                        <constraint firstItem="ivv-n5-HZf" firstAttribute="top" secondItem="PsY-SB-5gw" secondAttribute="top" id="Njr-bM-wVM"/>
+                        <constraint firstItem="9Tc-mz-vtf" firstAttribute="top" secondItem="PsY-SB-5gw" secondAttribute="top" id="S7B-lX-qaZ"/>
+                        <constraint firstAttribute="trailing" secondItem="uNf-Fo-NPY" secondAttribute="trailing" id="cO1-Dx-eAS"/>
+                        <constraint firstItem="uNf-Fo-NPY" firstAttribute="leading" secondItem="1CY-L0-xxI" secondAttribute="leading" id="dos-Ua-Kkr"/>
+                        <constraint firstAttribute="trailing" secondItem="PsY-SB-5gw" secondAttribute="trailing" constant="20" id="fnH-sr-KGJ"/>
+                        <constraint firstItem="uNf-Fo-NPY" firstAttribute="top" secondItem="1CY-L0-xxI" secondAttribute="top" id="j6J-yo-2fd"/>
+                        <constraint firstAttribute="bottom" secondItem="uNf-Fo-NPY" secondAttribute="bottom" id="qIr-ds-dOi"/>
+                        <constraint firstItem="9Tc-mz-vtf" firstAttribute="trailing" secondItem="PsY-SB-5gw" secondAttribute="trailing" id="usC-a9-0T6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="1CY-L0-xxI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CMT-CV-FeN"/>
+                <constraint firstItem="1CY-L0-xxI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZPe-sW-nla"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1CY-L0-xxI" secondAttribute="bottom" id="mDU-mP-8wJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1CY-L0-xxI" secondAttribute="trailing" id="zcp-fG-Dnt"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="1CY-L0-xxI" id="sX1-38-VjH"/>
+                <outlet property="customCalenderView" destination="PsY-SB-5gw" id="l2U-N1-5bc"/>
+                <outlet property="leftArrowButton" destination="ivv-n5-HZf" id="i61-bf-y2v"/>
+                <outlet property="rightArrowButton" destination="9Tc-mz-vtf" id="dUI-Xd-bgr"/>
+            </connections>
+            <point key="canvasLocation" x="193.47826086956522" y="-36.830357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back" width="12.5" height="23"/>
+        <image name="ic_next" width="10.5" height="24.5"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

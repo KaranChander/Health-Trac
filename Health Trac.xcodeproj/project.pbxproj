@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0107BA92999EB3B00DDDBEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BA82999EB3B00DDDBEC /* AppDelegate.swift */; };
+		A0107BAB2999EB3B00DDDBEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BAA2999EB3B00DDDBEC /* SceneDelegate.swift */; };
+		A0107BAD2999EB3B00DDDBEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BAC2999EB3B00DDDBEC /* ViewController.swift */; };
+		A0107BB22999EB3D00DDDBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0107BB12999EB3D00DDDBEC /* Assets.xcassets */; };
+		A0107BB52999EB3D00DDDBEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0107BB32999EB3D00DDDBEC /* LaunchScreen.storyboard */; };
+		A0107C242999EB6600DDDBEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BBF2999EB6600DDDBEC /* SettingsViewController.swift */; };
+		A0107C252999EB6600DDDBEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC12999EB6600DDDBEC /* HomeViewController.swift */; };
+		A0107C262999EB6600DDDBEC /* HomeViewController+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC22999EB6600DDDBEC /* HomeViewController+API.swift */; };
+		A0107C272999EB6600DDDBEC /* LogBookViewController+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC42999EB6600DDDBEC /* LogBookViewController+API.swift */; };
+		A0107C282999EB6600DDDBEC /* LogbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC52999EB6600DDDBEC /* LogbookViewController.swift */; };
+		A0107C292999EB6600DDDBEC /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC62999EB6600DDDBEC /* BaseVC.swift */; };
+		A0107C2A2999EB6600DDDBEC /* AutomaticGlucoseReadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC72999EB6600DDDBEC /* AutomaticGlucoseReadingVC.swift */; };
+		A0107C2B2999EB6600DDDBEC /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BC92999EB6600DDDBEC /* ActivityViewController.swift */; };
+		A0107C2C2999EB6600DDDBEC /* ActivityViewController+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BCA2999EB6600DDDBEC /* ActivityViewController+API.swift */; };
+		A0107C2D2999EB6600DDDBEC /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BCB2999EB6600DDDBEC /* ImagePreviewVC.swift */; };
+		A0107C2E2999EB6600DDDBEC /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BCD2999EB6600DDDBEC /* ExerciseViewController.swift */; };
+		A0107C2F2999EB6600DDDBEC /* ExerciseStepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BCE2999EB6600DDDBEC /* ExerciseStepThree.swift */; };
+		A0107C302999EB6600DDDBEC /* ExerciseStepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BCF2999EB6600DDDBEC /* ExerciseStepOne.swift */; };
+		A0107C312999EB6600DDDBEC /* ExerciseStepFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BD02999EB6600DDDBEC /* ExerciseStepFour.swift */; };
+		A0107C322999EB6600DDDBEC /* ExerciseStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BD12999EB6600DDDBEC /* ExerciseStepTwo.swift */; };
+		A0107C332999EB6600DDDBEC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BD32999EB6600DDDBEC /* TabBarViewController.swift */; };
+		A0107C352999EB6600DDDBEC /* AutomaticGlucoseReadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BD52999EB6600DDDBEC /* AutomaticGlucoseReadingVC.xib */; };
+		A0107C362999EB6600DDDBEC /* ExerciseEntryStepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BD72999EB6600DDDBEC /* ExerciseEntryStepTwoViewController.swift */; };
+		A0107C372999EB6600DDDBEC /* DeviceScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BD92999EB6600DDDBEC /* DeviceScannerVC.swift */; };
+		A0107C382999EB6600DDDBEC /* CarbsStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BDB2999EB6600DDDBEC /* CarbsStepTwo.swift */; };
+		A0107C392999EB6600DDDBEC /* CarbsStepFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BDC2999EB6600DDDBEC /* CarbsStepFour.swift */; };
+		A0107C3A2999EB6600DDDBEC /* CarbsStepFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BDD2999EB6600DDDBEC /* CarbsStepFive.swift */; };
+		A0107C3B2999EB6600DDDBEC /* CarbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BDE2999EB6600DDDBEC /* CarbsViewController.swift */; };
+		A0107C3C2999EB6600DDDBEC /* CarbsStepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BDF2999EB6600DDDBEC /* CarbsStepOne.swift */; };
+		A0107C3D2999EB6600DDDBEC /* CarbsStepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE02999EB6600DDDBEC /* CarbsStepThree.swift */; };
+		A0107C3E2999EB6600DDDBEC /* ReadingStepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE22999EB6600DDDBEC /* ReadingStepThree.swift */; };
+		A0107C3F2999EB6600DDDBEC /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE32999EB6600DDDBEC /* ReadingViewController.swift */; };
+		A0107C402999EB6600DDDBEC /* ReadingStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE42999EB6600DDDBEC /* ReadingStepTwo.swift */; };
+		A0107C412999EB6600DDDBEC /* ReadingStepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE52999EB6600DDDBEC /* ReadingStepOne.swift */; };
+		A0107C422999EB6600DDDBEC /* ReadingStepFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE62999EB6600DDDBEC /* ReadingStepFour.swift */; };
+		A0107C432999EB6600DDDBEC /* DiscoveredPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE82999EB6600DDDBEC /* DiscoveredPeripheral.swift */; };
+		A0107C442999EB6600DDDBEC /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BE92999EB6600DDDBEC /* SettingsModel.swift */; };
+		A0107C452999EB6600DDDBEC /* ReadingsRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BEA2999EB6600DDDBEC /* ReadingsRealmModel.swift */; };
+		A0107C462999EB6600DDDBEC /* ReadingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BEB2999EB6600DDDBEC /* ReadingsModel.swift */; };
+		A0107C472999EB6600DDDBEC /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BEE2999EB6600DDDBEC /* ReadingView.swift */; };
+		A0107C482999EB6600DDDBEC /* ReadingStepOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BEF2999EB6600DDDBEC /* ReadingStepOneView.swift */; };
+		A0107C492999EB6600DDDBEC /* ReadingStepTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BF02999EB6600DDDBEC /* ReadingStepTwoView.swift */; };
+		A0107C4A2999EB6600DDDBEC /* ReadingStepFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BF12999EB6600DDDBEC /* ReadingStepFourView.swift */; };
+		A0107C4B2999EB6600DDDBEC /* ReadingStepThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BF22999EB6600DDDBEC /* ReadingStepThreeView.swift */; };
+		A0107C4C2999EB6600DDDBEC /* ActivityReadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BF42999EB6600DDDBEC /* ActivityReadingCell.swift */; };
+		A0107C4D2999EB6600DDDBEC /* ActivityTimeHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BF52999EB6600DDDBEC /* ActivityTimeHeaderViewCell.xib */; };
+		A0107C4E2999EB6600DDDBEC /* ScannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BF72999EB6600DDDBEC /* ScannerTableViewCell.swift */; };
+		A0107C4F2999EB6600DDDBEC /* ScannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BF82999EB6600DDDBEC /* ScannerTableViewCell.xib */; };
+		A0107C502999EB6600DDDBEC /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BF92999EB6600DDDBEC /* SettingsCell.xib */; };
+		A0107C512999EB6600DDDBEC /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BFA2999EB6600DDDBEC /* SettingsCell.swift */; };
+		A0107C522999EB6600DDDBEC /* HomeReadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BFB2999EB6600DDDBEC /* HomeReadCell.swift */; };
+		A0107C532999EB6600DDDBEC /* SettingsSectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107BFC2999EB6600DDDBEC /* SettingsSectionHeaderCell.swift */; };
+		A0107C542999EB6600DDDBEC /* ActivityReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BFD2999EB6600DDDBEC /* ActivityReadingCell.xib */; };
+		A0107C552999EB6600DDDBEC /* HomeReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107BFE2999EB6600DDDBEC /* HomeReadCell.xib */; };
+		A0107C562999EB6600DDDBEC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C002999EB6600DDDBEC /* NavigationBar.swift */; };
+		A0107C572999EB6600DDDBEC /* NavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C012999EB6600DDDBEC /* NavigationBar.xib */; };
+		A0107C582999EB6600DDDBEC /* UpcomingReadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C022999EB6600DDDBEC /* UpcomingReadingCell.swift */; };
+		A0107C592999EB6600DDDBEC /* CustomCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C042999EB6600DDDBEC /* CustomCalender.swift */; };
+		A0107C5A2999EB6600DDDBEC /* CustomCalender.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C052999EB6600DDDBEC /* CustomCalender.xib */; };
+		A0107C5B2999EB6600DDDBEC /* ActivityTimeHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C062999EB6600DDDBEC /* ActivityTimeHeaderViewCell.swift */; };
+		A0107C5C2999EB6600DDDBEC /* LogbookDetailDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C082999EB6600DDDBEC /* LogbookDetailDataView.swift */; };
+		A0107C5D2999EB6600DDDBEC /* LogbookDetailDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C092999EB6600DDDBEC /* LogbookDetailDataView.xib */; };
+		A0107C5E2999EB6600DDDBEC /* GraphTimeSeparatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C0B2999EB6600DDDBEC /* GraphTimeSeparatorView.xib */; };
+		A0107C5F2999EB6600DDDBEC /* GraphTimeSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C0C2999EB6600DDDBEC /* GraphTimeSeparatorView.swift */; };
+		A0107C602999EB6600DDDBEC /* UpcomingReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C0D2999EB6600DDDBEC /* UpcomingReadingCell.xib */; };
+		A0107C612999EB6600DDDBEC /* SettingsSectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0107C0E2999EB6600DDDBEC /* SettingsSectionHeaderCell.xib */; };
+		A0107C622999EB6600DDDBEC /* CarbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C102999EB6600DDDBEC /* CarbsView.swift */; };
+		A0107C632999EB6600DDDBEC /* CarbsStepOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C112999EB6600DDDBEC /* CarbsStepOneView.swift */; };
+		A0107C642999EB6600DDDBEC /* CarbsStepThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C122999EB6600DDDBEC /* CarbsStepThreeView.swift */; };
+		A0107C652999EB6600DDDBEC /* CarbsStepFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C132999EB6600DDDBEC /* CarbsStepFiveView.swift */; };
+		A0107C662999EB6600DDDBEC /* CarbsStepFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C142999EB6600DDDBEC /* CarbsStepFourView.swift */; };
+		A0107C672999EB6600DDDBEC /* CarbsStepTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C152999EB6600DDDBEC /* CarbsStepTwoView.swift */; };
+		A0107C682999EB6600DDDBEC /* ExerciseEntryStepTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C162999EB6600DDDBEC /* ExerciseEntryStepTwoView.swift */; };
+		A0107C692999EB6600DDDBEC /* TabBarControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C172999EB6600DDDBEC /* TabBarControllerView.swift */; };
+		A0107C6A2999EB6600DDDBEC /* SettingsControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C182999EB6600DDDBEC /* SettingsControllerView.swift */; };
+		A0107C6B2999EB6600DDDBEC /* DeviceScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C192999EB6600DDDBEC /* DeviceScannerView.swift */; };
+		A0107C6C2999EB6600DDDBEC /* LogbookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C1A2999EB6600DDDBEC /* LogbookView.swift */; };
+		A0107C6D2999EB6600DDDBEC /* ExerciseStepOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C1C2999EB6600DDDBEC /* ExerciseStepOneView.swift */; };
+		A0107C6E2999EB6600DDDBEC /* ExerciseStepThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C1D2999EB6600DDDBEC /* ExerciseStepThreeView.swift */; };
+		A0107C6F2999EB6600DDDBEC /* ExerciseStepTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C1E2999EB6600DDDBEC /* ExerciseStepTwoView.swift */; };
+		A0107C702999EB6600DDDBEC /* ExerciseStepFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C1F2999EB6600DDDBEC /* ExerciseStepFourView.swift */; };
+		A0107C712999EB6600DDDBEC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C202999EB6600DDDBEC /* ExerciseView.swift */; };
+		A0107C722999EB6600DDDBEC /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C212999EB6600DDDBEC /* ActivityView.swift */; };
+		A0107C732999EB6600DDDBEC /* AutomaticGlucoseReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C222999EB6600DDDBEC /* AutomaticGlucoseReadingView.swift */; };
+		A0107C742999EB6600DDDBEC /* HomeControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0107C232999EB6600DDDBEC /* HomeControllerView.swift */; };
+		A08E1F4C2999ED1700EB1B68 /* NSDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F282999ED1700EB1B68 /* NSDataExtension.swift */; };
+		A08E1F4D2999ED1700EB1B68 /* UITableView+ UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F292999ED1700EB1B68 /* UITableView+ UITableViewCellExtension.swift */; };
+		A08E1F4E2999ED1700EB1B68 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2A2999ED1700EB1B68 /* UIColorExtension.swift */; };
+		A08E1F4F2999ED1700EB1B68 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2B2999ED1700EB1B68 /* UITextViewExtension.swift */; };
+		A08E1F502999ED1700EB1B68 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2C2999ED1700EB1B68 /* UILabelExtension.swift */; };
+		A08E1F512999ED1700EB1B68 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2D2999ED1700EB1B68 /* UIApplicationExtension.swift */; };
+		A08E1F522999ED1700EB1B68 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2E2999ED1700EB1B68 /* UIViewControllerExtension.swift */; };
+		A08E1F532999ED1700EB1B68 /* MultipleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F2F2999ED1700EB1B68 /* MultipleExtensions.swift */; };
+		A08E1F542999ED1700EB1B68 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F302999ED1700EB1B68 /* UIViewExtension.swift */; };
+		A08E1F552999ED1700EB1B68 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F312999ED1700EB1B68 /* UIDeviceExtension.swift */; };
+		A08E1F562999ED1700EB1B68 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F322999ED1700EB1B68 /* DispatchQueueExtension.swift */; };
+		A08E1F572999ED1700EB1B68 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F332999ED1700EB1B68 /* StringExtension.swift */; };
+		A08E1F582999ED1700EB1B68 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F342999ED1700EB1B68 /* UIImageExtension.swift */; };
+		A08E1F592999ED1700EB1B68 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F352999ED1700EB1B68 /* DateExtension.swift */; };
+		A08E1F5A2999ED1700EB1B68 /* UICollectionView+UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F362999ED1700EB1B68 /* UICollectionView+UICollectionViewCellExtension.swift */; };
+		A08E1F5B2999ED1700EB1B68 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F382999ED1700EB1B68 /* GrowingTextView.swift */; };
+		A08E1F5C2999ED1700EB1B68 /* TrueTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F392999ED1700EB1B68 /* TrueTimeManager.swift */; };
+		A08E1F5D2999ED1700EB1B68 /* CarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F3B2999ED1700EB1B68 /* CarouselFlowLayout.swift */; };
+		A08E1F5E2999ED1700EB1B68 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F3C2999ED1700EB1B68 /* CircleProgressView.swift */; };
+		A08E1F5F2999ED1700EB1B68 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F3E2999ED1700EB1B68 /* AlignedCollectionViewFlowLayout.swift */; };
+		A08E1F602999ED1700EB1B68 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F402999ED1700EB1B68 /* DatePicker.swift */; };
+		A08E1F612999ED1700EB1B68 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F412999ED1700EB1B68 /* CommonFunctions.swift */; };
+		A08E1F622999ED1700EB1B68 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F432999ED1700EB1B68 /* AppUserDefaults.swift */; };
+		A08E1F632999ED1700EB1B68 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F442999ED1700EB1B68 /* ApiKeys.swift */; };
+		A08E1F642999ED1700EB1B68 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F452999ED1700EB1B68 /* AppColors.swift */; };
+		A08E1F652999ED1700EB1B68 /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F462999ED1700EB1B68 /* AppStoryboards.swift */; };
+		A08E1F662999ED1700EB1B68 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F472999ED1700EB1B68 /* AppConstants.swift */; };
+		A08E1F672999ED1700EB1B68 /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F482999ED1700EB1B68 /* AppGlobals.swift */; };
+		A08E1F682999ED1700EB1B68 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F492999ED1700EB1B68 /* AppFonts.swift */; };
+		A08E1F692999ED1700EB1B68 /* RealMDbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1F4B2999ED1700EB1B68 /* RealMDbManager.swift */; };
+		A08E1FAC2999ED8400EB1B68 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F962999ED8400EB1B68 /* Localizable.strings */; };
+		A08E1FAD2999ED8400EB1B68 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F992999ED8400EB1B68 /* Montserrat-LightItalic.ttf */; };
+		A08E1FAE2999ED8400EB1B68 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9A2999ED8400EB1B68 /* Montserrat-Medium.ttf */; };
+		A08E1FAF2999ED8400EB1B68 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9B2999ED8400EB1B68 /* Montserrat-BoldItalic.ttf */; };
+		A08E1FB02999ED8400EB1B68 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9C2999ED8400EB1B68 /* Montserrat-Light.ttf */; };
+		A08E1FB12999ED8400EB1B68 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9D2999ED8400EB1B68 /* Montserrat-ThinItalic.ttf */; };
+		A08E1FB22999ED8400EB1B68 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9E2999ED8400EB1B68 /* Montserrat-ExtraLight.ttf */; };
+		A08E1FB32999ED8400EB1B68 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1F9F2999ED8400EB1B68 /* Montserrat-Thin.ttf */; };
+		A08E1FB42999ED8400EB1B68 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA02999ED8400EB1B68 /* Montserrat-Bold.ttf */; };
+		A08E1FB52999ED8400EB1B68 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA12999ED8400EB1B68 /* Montserrat-MediumItalic.ttf */; };
+		A08E1FB62999ED8400EB1B68 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA22999ED8400EB1B68 /* Montserrat-BlackItalic.ttf */; };
+		A08E1FB72999ED8400EB1B68 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA32999ED8400EB1B68 /* Montserrat-SemiBold.ttf */; };
+		A08E1FB82999ED8400EB1B68 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA42999ED8400EB1B68 /* Montserrat-ExtraLightItalic.ttf */; };
+		A08E1FB92999ED8400EB1B68 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA52999ED8400EB1B68 /* Montserrat-ExtraBold.ttf */; };
+		A08E1FBA2999ED8400EB1B68 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA62999ED8400EB1B68 /* Montserrat-Black.ttf */; };
+		A08E1FBB2999ED8400EB1B68 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA72999ED8400EB1B68 /* Montserrat-Regular.ttf */; };
+		A08E1FBC2999ED8400EB1B68 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA82999ED8400EB1B68 /* Montserrat-Italic.ttf */; };
+		A08E1FBD2999ED8400EB1B68 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FA92999ED8400EB1B68 /* Montserrat-SemiBoldItalic.ttf */; };
+		A08E1FBE2999ED8400EB1B68 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FAA2999ED8400EB1B68 /* Montserrat-ExtraBoldItalic.ttf */; };
+		A08E1FBF2999ED8400EB1B68 /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E1FAB2999ED8400EB1B68 /* StringConstant.swift */; };
+		A08E1FC92999F18600EB1B68 /* LogBook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC12999F18600EB1B68 /* LogBook.storyboard */; };
+		A08E1FCA2999F18600EB1B68 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC22999F18600EB1B68 /* Home.storyboard */; };
+		A08E1FCB2999F18600EB1B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC32999F18600EB1B68 /* Main.storyboard */; };
+		A08E1FCC2999F18600EB1B68 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC52999F18600EB1B68 /* Activity.storyboard */; };
+		A08E1FCD2999F18600EB1B68 /* ExerciseEntryStepTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC62999F18600EB1B68 /* ExerciseEntryStepTwo.storyboard */; };
+		A08E1FCE2999F18600EB1B68 /* ReadingEntry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC72999F18600EB1B68 /* ReadingEntry.storyboard */; };
+		A08E1FCF2999F18600EB1B68 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FC82999F18600EB1B68 /* Settings.storyboard */; };
+		A08E1FD12999F1DE00EB1B68 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A08E1FD02999F1DD00EB1B68 /* data.json */; };
+		A9E96B007D5FF6BE04F024BC /* Pods_Health_Trac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D991B599FBFC8A6E6B2F13 /* Pods_Health_Trac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0107BA52999EB3B00DDDBEC /* Health Trac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Trac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0107BA82999EB3B00DDDBEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0107BAA2999EB3B00DDDBEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0107BAC2999EB3B00DDDBEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0107BB12999EB3D00DDDBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0107BB42999EB3D00DDDBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0107BB62999EB3D00DDDBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0107BBF2999EB6600DDDBEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A0107BC12999EB6600DDDBEC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A0107BC22999EB6600DDDBEC /* HomeViewController+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+API.swift"; sourceTree = "<group>"; };
+		A0107BC42999EB6600DDDBEC /* LogBookViewController+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LogBookViewController+API.swift"; sourceTree = "<group>"; };
+		A0107BC52999EB6600DDDBEC /* LogbookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogbookViewController.swift; sourceTree = "<group>"; };
+		A0107BC62999EB6600DDDBEC /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		A0107BC72999EB6600DDDBEC /* AutomaticGlucoseReadingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticGlucoseReadingVC.swift; sourceTree = "<group>"; };
+		A0107BC92999EB6600DDDBEC /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		A0107BCA2999EB6600DDDBEC /* ActivityViewController+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ActivityViewController+API.swift"; sourceTree = "<group>"; };
+		A0107BCB2999EB6600DDDBEC /* ImagePreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
+		A0107BCD2999EB6600DDDBEC /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		A0107BCE2999EB6600DDDBEC /* ExerciseStepThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepThree.swift; sourceTree = "<group>"; };
+		A0107BCF2999EB6600DDDBEC /* ExerciseStepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepOne.swift; sourceTree = "<group>"; };
+		A0107BD02999EB6600DDDBEC /* ExerciseStepFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepFour.swift; sourceTree = "<group>"; };
+		A0107BD12999EB6600DDDBEC /* ExerciseStepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepTwo.swift; sourceTree = "<group>"; };
+		A0107BD32999EB6600DDDBEC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A0107BD52999EB6600DDDBEC /* AutomaticGlucoseReadingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutomaticGlucoseReadingVC.xib; sourceTree = "<group>"; };
+		A0107BD72999EB6600DDDBEC /* ExerciseEntryStepTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseEntryStepTwoViewController.swift; sourceTree = "<group>"; };
+		A0107BD92999EB6600DDDBEC /* DeviceScannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceScannerVC.swift; sourceTree = "<group>"; };
+		A0107BDB2999EB6600DDDBEC /* CarbsStepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepTwo.swift; sourceTree = "<group>"; };
+		A0107BDC2999EB6600DDDBEC /* CarbsStepFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepFour.swift; sourceTree = "<group>"; };
+		A0107BDD2999EB6600DDDBEC /* CarbsStepFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepFive.swift; sourceTree = "<group>"; };
+		A0107BDE2999EB6600DDDBEC /* CarbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsViewController.swift; sourceTree = "<group>"; };
+		A0107BDF2999EB6600DDDBEC /* CarbsStepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepOne.swift; sourceTree = "<group>"; };
+		A0107BE02999EB6600DDDBEC /* CarbsStepThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepThree.swift; sourceTree = "<group>"; };
+		A0107BE22999EB6600DDDBEC /* ReadingStepThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepThree.swift; sourceTree = "<group>"; };
+		A0107BE32999EB6600DDDBEC /* ReadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		A0107BE42999EB6600DDDBEC /* ReadingStepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepTwo.swift; sourceTree = "<group>"; };
+		A0107BE52999EB6600DDDBEC /* ReadingStepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepOne.swift; sourceTree = "<group>"; };
+		A0107BE62999EB6600DDDBEC /* ReadingStepFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepFour.swift; sourceTree = "<group>"; };
+		A0107BE82999EB6600DDDBEC /* DiscoveredPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveredPeripheral.swift; sourceTree = "<group>"; };
+		A0107BE92999EB6600DDDBEC /* SettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		A0107BEA2999EB6600DDDBEC /* ReadingsRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingsRealmModel.swift; sourceTree = "<group>"; };
+		A0107BEB2999EB6600DDDBEC /* ReadingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingsModel.swift; sourceTree = "<group>"; };
+		A0107BEE2999EB6600DDDBEC /* ReadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		A0107BEF2999EB6600DDDBEC /* ReadingStepOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepOneView.swift; sourceTree = "<group>"; };
+		A0107BF02999EB6600DDDBEC /* ReadingStepTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepTwoView.swift; sourceTree = "<group>"; };
+		A0107BF12999EB6600DDDBEC /* ReadingStepFourView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepFourView.swift; sourceTree = "<group>"; };
+		A0107BF22999EB6600DDDBEC /* ReadingStepThreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStepThreeView.swift; sourceTree = "<group>"; };
+		A0107BF42999EB6600DDDBEC /* ActivityReadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityReadingCell.swift; sourceTree = "<group>"; };
+		A0107BF52999EB6600DDDBEC /* ActivityTimeHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTimeHeaderViewCell.xib; sourceTree = "<group>"; };
+		A0107BF72999EB6600DDDBEC /* ScannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerTableViewCell.swift; sourceTree = "<group>"; };
+		A0107BF82999EB6600DDDBEC /* ScannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerTableViewCell.xib; sourceTree = "<group>"; };
+		A0107BF92999EB6600DDDBEC /* SettingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+		A0107BFA2999EB6600DDDBEC /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		A0107BFB2999EB6600DDDBEC /* HomeReadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReadCell.swift; sourceTree = "<group>"; };
+		A0107BFC2999EB6600DDDBEC /* SettingsSectionHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSectionHeaderCell.swift; sourceTree = "<group>"; };
+		A0107BFD2999EB6600DDDBEC /* ActivityReadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityReadingCell.xib; sourceTree = "<group>"; };
+		A0107BFE2999EB6600DDDBEC /* HomeReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeReadCell.xib; sourceTree = "<group>"; };
+		A0107C002999EB6600DDDBEC /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		A0107C012999EB6600DDDBEC /* NavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBar.xib; sourceTree = "<group>"; };
+		A0107C022999EB6600DDDBEC /* UpcomingReadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingReadingCell.swift; sourceTree = "<group>"; };
+		A0107C042999EB6600DDDBEC /* CustomCalender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalender.swift; sourceTree = "<group>"; };
+		A0107C052999EB6600DDDBEC /* CustomCalender.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalender.xib; sourceTree = "<group>"; };
+		A0107C062999EB6600DDDBEC /* ActivityTimeHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTimeHeaderViewCell.swift; sourceTree = "<group>"; };
+		A0107C082999EB6600DDDBEC /* LogbookDetailDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogbookDetailDataView.swift; sourceTree = "<group>"; };
+		A0107C092999EB6600DDDBEC /* LogbookDetailDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogbookDetailDataView.xib; sourceTree = "<group>"; };
+		A0107C0B2999EB6600DDDBEC /* GraphTimeSeparatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphTimeSeparatorView.xib; sourceTree = "<group>"; };
+		A0107C0C2999EB6600DDDBEC /* GraphTimeSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphTimeSeparatorView.swift; sourceTree = "<group>"; };
+		A0107C0D2999EB6600DDDBEC /* UpcomingReadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpcomingReadingCell.xib; sourceTree = "<group>"; };
+		A0107C0E2999EB6600DDDBEC /* SettingsSectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsSectionHeaderCell.xib; sourceTree = "<group>"; };
+		A0107C102999EB6600DDDBEC /* CarbsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsView.swift; sourceTree = "<group>"; };
+		A0107C112999EB6600DDDBEC /* CarbsStepOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepOneView.swift; sourceTree = "<group>"; };
+		A0107C122999EB6600DDDBEC /* CarbsStepThreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepThreeView.swift; sourceTree = "<group>"; };
+		A0107C132999EB6600DDDBEC /* CarbsStepFiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepFiveView.swift; sourceTree = "<group>"; };
+		A0107C142999EB6600DDDBEC /* CarbsStepFourView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepFourView.swift; sourceTree = "<group>"; };
+		A0107C152999EB6600DDDBEC /* CarbsStepTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsStepTwoView.swift; sourceTree = "<group>"; };
+		A0107C162999EB6600DDDBEC /* ExerciseEntryStepTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseEntryStepTwoView.swift; sourceTree = "<group>"; };
+		A0107C172999EB6600DDDBEC /* TabBarControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerView.swift; sourceTree = "<group>"; };
+		A0107C182999EB6600DDDBEC /* SettingsControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsControllerView.swift; sourceTree = "<group>"; };
+		A0107C192999EB6600DDDBEC /* DeviceScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceScannerView.swift; sourceTree = "<group>"; };
+		A0107C1A2999EB6600DDDBEC /* LogbookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogbookView.swift; sourceTree = "<group>"; };
+		A0107C1C2999EB6600DDDBEC /* ExerciseStepOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepOneView.swift; sourceTree = "<group>"; };
+		A0107C1D2999EB6600DDDBEC /* ExerciseStepThreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepThreeView.swift; sourceTree = "<group>"; };
+		A0107C1E2999EB6600DDDBEC /* ExerciseStepTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepTwoView.swift; sourceTree = "<group>"; };
+		A0107C1F2999EB6600DDDBEC /* ExerciseStepFourView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepFourView.swift; sourceTree = "<group>"; };
+		A0107C202999EB6600DDDBEC /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		A0107C212999EB6600DDDBEC /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A0107C222999EB6600DDDBEC /* AutomaticGlucoseReadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticGlucoseReadingView.swift; sourceTree = "<group>"; };
+		A0107C232999EB6600DDDBEC /* HomeControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeControllerView.swift; sourceTree = "<group>"; };
+		A08E1F282999ED1700EB1B68 /* NSDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDataExtension.swift; sourceTree = "<group>"; };
+		A08E1F292999ED1700EB1B68 /* UITableView+ UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ UITableViewCellExtension.swift"; sourceTree = "<group>"; };
+		A08E1F2A2999ED1700EB1B68 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A08E1F2B2999ED1700EB1B68 /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		A08E1F2C2999ED1700EB1B68 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		A08E1F2D2999ED1700EB1B68 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		A08E1F2E2999ED1700EB1B68 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		A08E1F2F2999ED1700EB1B68 /* MultipleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleExtensions.swift; sourceTree = "<group>"; };
+		A08E1F302999ED1700EB1B68 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A08E1F312999ED1700EB1B68 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		A08E1F322999ED1700EB1B68 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		A08E1F332999ED1700EB1B68 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A08E1F342999ED1700EB1B68 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		A08E1F352999ED1700EB1B68 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A08E1F362999ED1700EB1B68 /* UICollectionView+UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+UICollectionViewCellExtension.swift"; sourceTree = "<group>"; };
+		A08E1F382999ED1700EB1B68 /* GrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
+		A08E1F392999ED1700EB1B68 /* TrueTimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueTimeManager.swift; sourceTree = "<group>"; };
+		A08E1F3B2999ED1700EB1B68 /* CarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselFlowLayout.swift; sourceTree = "<group>"; };
+		A08E1F3C2999ED1700EB1B68 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		A08E1F3E2999ED1700EB1B68 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		A08E1F402999ED1700EB1B68 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		A08E1F412999ED1700EB1B68 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		A08E1F432999ED1700EB1B68 /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		A08E1F442999ED1700EB1B68 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		A08E1F452999ED1700EB1B68 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		A08E1F462999ED1700EB1B68 /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
+		A08E1F472999ED1700EB1B68 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		A08E1F482999ED1700EB1B68 /* AppGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
+		A08E1F492999ED1700EB1B68 /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		A08E1F4B2999ED1700EB1B68 /* RealMDbManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealMDbManager.swift; sourceTree = "<group>"; };
+		A08E1F972999ED8400EB1B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A08E1F992999ED8400EB1B68 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		A08E1F9A2999ED8400EB1B68 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A08E1F9B2999ED8400EB1B68 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A08E1F9C2999ED8400EB1B68 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		A08E1F9D2999ED8400EB1B68 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A08E1F9E2999ED8400EB1B68 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A08E1F9F2999ED8400EB1B68 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		A08E1FA02999ED8400EB1B68 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A08E1FA12999ED8400EB1B68 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A08E1FA22999ED8400EB1B68 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A08E1FA32999ED8400EB1B68 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		A08E1FA42999ED8400EB1B68 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A08E1FA52999ED8400EB1B68 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A08E1FA62999ED8400EB1B68 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		A08E1FA72999ED8400EB1B68 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		A08E1FA82999ED8400EB1B68 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		A08E1FA92999ED8400EB1B68 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A08E1FAA2999ED8400EB1B68 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A08E1FAB2999ED8400EB1B68 /* StringConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
+		A08E1FC12999F18600EB1B68 /* LogBook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogBook.storyboard; sourceTree = "<group>"; };
+		A08E1FC22999F18600EB1B68 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A08E1FC42999F18600EB1B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A08E1FC52999F18600EB1B68 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		A08E1FC62999F18600EB1B68 /* ExerciseEntryStepTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExerciseEntryStepTwo.storyboard; sourceTree = "<group>"; };
+		A08E1FC72999F18600EB1B68 /* ReadingEntry.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReadingEntry.storyboard; sourceTree = "<group>"; };
+		A08E1FC82999F18600EB1B68 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		A08E1FD02999F1DD00EB1B68 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E91F3D5CED70DA1874222017 /* Pods-Health Trac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health Trac.release.xcconfig"; path = "Target Support Files/Pods-Health Trac/Pods-Health Trac.release.xcconfig"; sourceTree = "<group>"; };
+		EAE9729F910984ABB8E96EDF /* Pods-Health Trac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health Trac.debug.xcconfig"; path = "Target Support Files/Pods-Health Trac/Pods-Health Trac.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D991B599FBFC8A6E6B2F13 /* Pods_Health_Trac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_Trac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0107BA22999EB3B00DDDBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E96B007D5FF6BE04F024BC /* Pods_Health_Trac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D259FEEB322D7F23358B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D991B599FBFC8A6E6B2F13 /* Pods_Health_Trac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D50DF425D111CE8E14CF521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9729F910984ABB8E96EDF /* Pods-Health Trac.debug.xcconfig */,
+				E91F3D5CED70DA1874222017 /* Pods-Health Trac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0107B9C2999EB3B00DDDBEC = {
+			isa = PBXGroup;
+			children = (
+				A0107BA72999EB3B00DDDBEC /* Health Trac */,
+				A0107BA62999EB3B00DDDBEC /* Products */,
+				7D50DF425D111CE8E14CF521 /* Pods */,
+				43D259FEEB322D7F23358B6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0107BA62999EB3B00DDDBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BA52999EB3B00DDDBEC /* Health Trac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0107BA72999EB3B00DDDBEC /* Health Trac */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1FD02999F1DD00EB1B68 /* data.json */,
+				A08E1FC02999F18500EB1B68 /* StoryBoards */,
+				A0107BB62999EB3D00DDDBEC /* Info.plist */,
+				A08E1F952999ED8400EB1B68 /* Resources */,
+				A08E1F262999ED1700EB1B68 /* Helpers */,
+				A0107BBC2999EB6600DDDBEC /* MVC */,
+				A0107BA82999EB3B00DDDBEC /* AppDelegate.swift */,
+				A0107BAA2999EB3B00DDDBEC /* SceneDelegate.swift */,
+				A0107BAC2999EB3B00DDDBEC /* ViewController.swift */,
+			);
+			path = "Health Trac";
+			sourceTree = "<group>";
+		};
+		A0107BBC2999EB6600DDDBEC /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BBD2999EB6600DDDBEC /* View Controllers */,
+				A0107BE72999EB6600DDDBEC /* Models */,
+				A0107BEC2999EB6600DDDBEC /* Views */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		A0107BBD2999EB6600DDDBEC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BBE2999EB6600DDDBEC /* Settings */,
+				A0107BC02999EB6600DDDBEC /* Home */,
+				A0107BC32999EB6600DDDBEC /* Logbook */,
+				A0107BC62999EB6600DDDBEC /* BaseVC.swift */,
+				A0107BC72999EB6600DDDBEC /* AutomaticGlucoseReadingVC.swift */,
+				A0107BC82999EB6600DDDBEC /* Activity */,
+				A0107BCB2999EB6600DDDBEC /* ImagePreviewVC.swift */,
+				A0107BCC2999EB6600DDDBEC /* ExerciseEntry */,
+				A0107BD22999EB6600DDDBEC /* TabBar */,
+				A0107BD52999EB6600DDDBEC /* AutomaticGlucoseReadingVC.xib */,
+				A0107BD62999EB6600DDDBEC /* ExerciseEntrySteps */,
+				A0107BD82999EB6600DDDBEC /* AutomaticGlucoseReading */,
+				A0107BDA2999EB6600DDDBEC /* CarbsEntry */,
+				A0107BE12999EB6600DDDBEC /* ReadingEntry */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A0107BBE2999EB6600DDDBEC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BBF2999EB6600DDDBEC /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A0107BC02999EB6600DDDBEC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BC12999EB6600DDDBEC /* HomeViewController.swift */,
+				A0107BC22999EB6600DDDBEC /* HomeViewController+API.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A0107BC32999EB6600DDDBEC /* Logbook */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BC42999EB6600DDDBEC /* LogBookViewController+API.swift */,
+				A0107BC52999EB6600DDDBEC /* LogbookViewController.swift */,
+			);
+			path = Logbook;
+			sourceTree = "<group>";
+		};
+		A0107BC82999EB6600DDDBEC /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BC92999EB6600DDDBEC /* ActivityViewController.swift */,
+				A0107BCA2999EB6600DDDBEC /* ActivityViewController+API.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		A0107BCC2999EB6600DDDBEC /* ExerciseEntry */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BCD2999EB6600DDDBEC /* ExerciseViewController.swift */,
+				A0107BCE2999EB6600DDDBEC /* ExerciseStepThree.swift */,
+				A0107BCF2999EB6600DDDBEC /* ExerciseStepOne.swift */,
+				A0107BD02999EB6600DDDBEC /* ExerciseStepFour.swift */,
+				A0107BD12999EB6600DDDBEC /* ExerciseStepTwo.swift */,
+			);
+			path = ExerciseEntry;
+			sourceTree = "<group>";
+		};
+		A0107BD22999EB6600DDDBEC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BD32999EB6600DDDBEC /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A0107BD62999EB6600DDDBEC /* ExerciseEntrySteps */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BD72999EB6600DDDBEC /* ExerciseEntryStepTwoViewController.swift */,
+			);
+			path = ExerciseEntrySteps;
+			sourceTree = "<group>";
+		};
+		A0107BD82999EB6600DDDBEC /* AutomaticGlucoseReading */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BD92999EB6600DDDBEC /* DeviceScannerVC.swift */,
+			);
+			path = AutomaticGlucoseReading;
+			sourceTree = "<group>";
+		};
+		A0107BDA2999EB6600DDDBEC /* CarbsEntry */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BDB2999EB6600DDDBEC /* CarbsStepTwo.swift */,
+				A0107BDC2999EB6600DDDBEC /* CarbsStepFour.swift */,
+				A0107BDD2999EB6600DDDBEC /* CarbsStepFive.swift */,
+				A0107BDE2999EB6600DDDBEC /* CarbsViewController.swift */,
+				A0107BDF2999EB6600DDDBEC /* CarbsStepOne.swift */,
+				A0107BE02999EB6600DDDBEC /* CarbsStepThree.swift */,
+			);
+			path = CarbsEntry;
+			sourceTree = "<group>";
+		};
+		A0107BE12999EB6600DDDBEC /* ReadingEntry */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BE22999EB6600DDDBEC /* ReadingStepThree.swift */,
+				A0107BE32999EB6600DDDBEC /* ReadingViewController.swift */,
+				A0107BE42999EB6600DDDBEC /* ReadingStepTwo.swift */,
+				A0107BE52999EB6600DDDBEC /* ReadingStepOne.swift */,
+				A0107BE62999EB6600DDDBEC /* ReadingStepFour.swift */,
+			);
+			path = ReadingEntry;
+			sourceTree = "<group>";
+		};
+		A0107BE72999EB6600DDDBEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BE82999EB6600DDDBEC /* DiscoveredPeripheral.swift */,
+				A0107BE92999EB6600DDDBEC /* SettingsModel.swift */,
+				A0107BEA2999EB6600DDDBEC /* ReadingsRealmModel.swift */,
+				A0107BEB2999EB6600DDDBEC /* ReadingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0107BEC2999EB6600DDDBEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BED2999EB6600DDDBEC /* ReadingEntryViews */,
+				A0107BF32999EB6600DDDBEC /* Xibs */,
+				A0107C0F2999EB6600DDDBEC /* CarbsEntryViews */,
+				A0107C162999EB6600DDDBEC /* ExerciseEntryStepTwoView.swift */,
+				A0107C172999EB6600DDDBEC /* TabBarControllerView.swift */,
+				A0107C182999EB6600DDDBEC /* SettingsControllerView.swift */,
+				A0107C192999EB6600DDDBEC /* DeviceScannerView.swift */,
+				A0107C1A2999EB6600DDDBEC /* LogbookView.swift */,
+				A0107C1B2999EB6600DDDBEC /* ExerciseEntryViews */,
+				A0107C212999EB6600DDDBEC /* ActivityView.swift */,
+				A0107C222999EB6600DDDBEC /* AutomaticGlucoseReadingView.swift */,
+				A0107C232999EB6600DDDBEC /* HomeControllerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0107BED2999EB6600DDDBEC /* ReadingEntryViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BEE2999EB6600DDDBEC /* ReadingView.swift */,
+				A0107BEF2999EB6600DDDBEC /* ReadingStepOneView.swift */,
+				A0107BF02999EB6600DDDBEC /* ReadingStepTwoView.swift */,
+				A0107BF12999EB6600DDDBEC /* ReadingStepFourView.swift */,
+				A0107BF22999EB6600DDDBEC /* ReadingStepThreeView.swift */,
+			);
+			path = ReadingEntryViews;
+			sourceTree = "<group>";
+		};
+		A0107BF32999EB6600DDDBEC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BF42999EB6600DDDBEC /* ActivityReadingCell.swift */,
+				A0107BF52999EB6600DDDBEC /* ActivityTimeHeaderViewCell.xib */,
+				A0107BF62999EB6600DDDBEC /* ScannerViewCell */,
+				A0107BF92999EB6600DDDBEC /* SettingsCell.xib */,
+				A0107BFA2999EB6600DDDBEC /* SettingsCell.swift */,
+				A0107BFB2999EB6600DDDBEC /* HomeReadCell.swift */,
+				A0107BFC2999EB6600DDDBEC /* SettingsSectionHeaderCell.swift */,
+				A0107BFD2999EB6600DDDBEC /* ActivityReadingCell.xib */,
+				A0107BFE2999EB6600DDDBEC /* HomeReadCell.xib */,
+				A0107BFF2999EB6600DDDBEC /* NavigationBar */,
+				A0107C022999EB6600DDDBEC /* UpcomingReadingCell.swift */,
+				A0107C032999EB6600DDDBEC /* CustomCalender */,
+				A0107C062999EB6600DDDBEC /* ActivityTimeHeaderViewCell.swift */,
+				A0107C072999EB6600DDDBEC /* Logbook Detail View */,
+				A0107C0A2999EB6600DDDBEC /* GraphTimeSeparator */,
+				A0107C0D2999EB6600DDDBEC /* UpcomingReadingCell.xib */,
+				A0107C0E2999EB6600DDDBEC /* SettingsSectionHeaderCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		A0107BF62999EB6600DDDBEC /* ScannerViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BF72999EB6600DDDBEC /* ScannerTableViewCell.swift */,
+				A0107BF82999EB6600DDDBEC /* ScannerTableViewCell.xib */,
+			);
+			path = ScannerViewCell;
+			sourceTree = "<group>";
+		};
+		A0107BFF2999EB6600DDDBEC /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C002999EB6600DDDBEC /* NavigationBar.swift */,
+				A0107C012999EB6600DDDBEC /* NavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		A0107C032999EB6600DDDBEC /* CustomCalender */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C042999EB6600DDDBEC /* CustomCalender.swift */,
+				A0107C052999EB6600DDDBEC /* CustomCalender.xib */,
+			);
+			path = CustomCalender;
+			sourceTree = "<group>";
+		};
+		A0107C072999EB6600DDDBEC /* Logbook Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C082999EB6600DDDBEC /* LogbookDetailDataView.swift */,
+				A0107C092999EB6600DDDBEC /* LogbookDetailDataView.xib */,
+			);
+			path = "Logbook Detail View";
+			sourceTree = "<group>";
+		};
+		A0107C0A2999EB6600DDDBEC /* GraphTimeSeparator */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C0B2999EB6600DDDBEC /* GraphTimeSeparatorView.xib */,
+				A0107C0C2999EB6600DDDBEC /* GraphTimeSeparatorView.swift */,
+			);
+			path = GraphTimeSeparator;
+			sourceTree = "<group>";
+		};
+		A0107C0F2999EB6600DDDBEC /* CarbsEntryViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C102999EB6600DDDBEC /* CarbsView.swift */,
+				A0107C112999EB6600DDDBEC /* CarbsStepOneView.swift */,
+				A0107C122999EB6600DDDBEC /* CarbsStepThreeView.swift */,
+				A0107C132999EB6600DDDBEC /* CarbsStepFiveView.swift */,
+				A0107C142999EB6600DDDBEC /* CarbsStepFourView.swift */,
+				A0107C152999EB6600DDDBEC /* CarbsStepTwoView.swift */,
+			);
+			path = CarbsEntryViews;
+			sourceTree = "<group>";
+		};
+		A0107C1B2999EB6600DDDBEC /* ExerciseEntryViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0107C1C2999EB6600DDDBEC /* ExerciseStepOneView.swift */,
+				A0107C1D2999EB6600DDDBEC /* ExerciseStepThreeView.swift */,
+				A0107C1E2999EB6600DDDBEC /* ExerciseStepTwoView.swift */,
+				A0107C1F2999EB6600DDDBEC /* ExerciseStepFourView.swift */,
+				A0107C202999EB6600DDDBEC /* ExerciseView.swift */,
+			);
+			path = ExerciseEntryViews;
+			sourceTree = "<group>";
+		};
+		A08E1F262999ED1700EB1B68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F272999ED1700EB1B68 /* Extensions  */,
+				A08E1F372999ED1700EB1B68 /* Third Party Library */,
+				A08E1F3F2999ED1700EB1B68 /* Custom Classes */,
+				A08E1F422999ED1700EB1B68 /* AppUtilities */,
+				A08E1F4A2999ED1700EB1B68 /* DBManager */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A08E1F272999ED1700EB1B68 /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F282999ED1700EB1B68 /* NSDataExtension.swift */,
+				A08E1F292999ED1700EB1B68 /* UITableView+ UITableViewCellExtension.swift */,
+				A08E1F2A2999ED1700EB1B68 /* UIColorExtension.swift */,
+				A08E1F2B2999ED1700EB1B68 /* UITextViewExtension.swift */,
+				A08E1F2C2999ED1700EB1B68 /* UILabelExtension.swift */,
+				A08E1F2D2999ED1700EB1B68 /* UIApplicationExtension.swift */,
+				A08E1F2E2999ED1700EB1B68 /* UIViewControllerExtension.swift */,
+				A08E1F2F2999ED1700EB1B68 /* MultipleExtensions.swift */,
+				A08E1F302999ED1700EB1B68 /* UIViewExtension.swift */,
+				A08E1F312999ED1700EB1B68 /* UIDeviceExtension.swift */,
+				A08E1F322999ED1700EB1B68 /* DispatchQueueExtension.swift */,
+				A08E1F332999ED1700EB1B68 /* StringExtension.swift */,
+				A08E1F342999ED1700EB1B68 /* UIImageExtension.swift */,
+				A08E1F352999ED1700EB1B68 /* DateExtension.swift */,
+				A08E1F362999ED1700EB1B68 /* UICollectionView+UICollectionViewCellExtension.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		A08E1F372999ED1700EB1B68 /* Third Party Library */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F382999ED1700EB1B68 /* GrowingTextView.swift */,
+				A08E1F392999ED1700EB1B68 /* TrueTimeManager.swift */,
+				A08E1F3A2999ED1700EB1B68 /* CarouselFlowLayout */,
+				A08E1F3C2999ED1700EB1B68 /* CircleProgressView.swift */,
+				A08E1F3D2999ED1700EB1B68 /* AlignedCollectionviewFlowlayout */,
+			);
+			path = "Third Party Library";
+			sourceTree = "<group>";
+		};
+		A08E1F3A2999ED1700EB1B68 /* CarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F3B2999ED1700EB1B68 /* CarouselFlowLayout.swift */,
+			);
+			path = CarouselFlowLayout;
+			sourceTree = "<group>";
+		};
+		A08E1F3D2999ED1700EB1B68 /* AlignedCollectionviewFlowlayout */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F3E2999ED1700EB1B68 /* AlignedCollectionViewFlowLayout.swift */,
+			);
+			path = AlignedCollectionviewFlowlayout;
+			sourceTree = "<group>";
+		};
+		A08E1F3F2999ED1700EB1B68 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F402999ED1700EB1B68 /* DatePicker.swift */,
+				A08E1F412999ED1700EB1B68 /* CommonFunctions.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		A08E1F422999ED1700EB1B68 /* AppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F432999ED1700EB1B68 /* AppUserDefaults.swift */,
+				A08E1F442999ED1700EB1B68 /* ApiKeys.swift */,
+				A08E1F452999ED1700EB1B68 /* AppColors.swift */,
+				A08E1F462999ED1700EB1B68 /* AppStoryboards.swift */,
+				A08E1F472999ED1700EB1B68 /* AppConstants.swift */,
+				A08E1F482999ED1700EB1B68 /* AppGlobals.swift */,
+				A08E1F492999ED1700EB1B68 /* AppFonts.swift */,
+			);
+			path = AppUtilities;
+			sourceTree = "<group>";
+		};
+		A08E1F4A2999ED1700EB1B68 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F4B2999ED1700EB1B68 /* RealMDbManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		A08E1F952999ED8400EB1B68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0107BB32999EB3D00DDDBEC /* LaunchScreen.storyboard */,
+				A0107BB12999EB3D00DDDBEC /* Assets.xcassets */,
+				A08E1F962999ED8400EB1B68 /* Localizable.strings */,
+				A08E1F982999ED8400EB1B68 /* Montserrat */,
+				A08E1FAB2999ED8400EB1B68 /* StringConstant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A08E1F982999ED8400EB1B68 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1F992999ED8400EB1B68 /* Montserrat-LightItalic.ttf */,
+				A08E1F9A2999ED8400EB1B68 /* Montserrat-Medium.ttf */,
+				A08E1F9B2999ED8400EB1B68 /* Montserrat-BoldItalic.ttf */,
+				A08E1F9C2999ED8400EB1B68 /* Montserrat-Light.ttf */,
+				A08E1F9D2999ED8400EB1B68 /* Montserrat-ThinItalic.ttf */,
+				A08E1F9E2999ED8400EB1B68 /* Montserrat-ExtraLight.ttf */,
+				A08E1F9F2999ED8400EB1B68 /* Montserrat-Thin.ttf */,
+				A08E1FA02999ED8400EB1B68 /* Montserrat-Bold.ttf */,
+				A08E1FA12999ED8400EB1B68 /* Montserrat-MediumItalic.ttf */,
+				A08E1FA22999ED8400EB1B68 /* Montserrat-BlackItalic.ttf */,
+				A08E1FA32999ED8400EB1B68 /* Montserrat-SemiBold.ttf */,
+				A08E1FA42999ED8400EB1B68 /* Montserrat-ExtraLightItalic.ttf */,
+				A08E1FA52999ED8400EB1B68 /* Montserrat-ExtraBold.ttf */,
+				A08E1FA62999ED8400EB1B68 /* Montserrat-Black.ttf */,
+				A08E1FA72999ED8400EB1B68 /* Montserrat-Regular.ttf */,
+				A08E1FA82999ED8400EB1B68 /* Montserrat-Italic.ttf */,
+				A08E1FA92999ED8400EB1B68 /* Montserrat-SemiBoldItalic.ttf */,
+				A08E1FAA2999ED8400EB1B68 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		A08E1FC02999F18500EB1B68 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A08E1FC12999F18600EB1B68 /* LogBook.storyboard */,
+				A08E1FC22999F18600EB1B68 /* Home.storyboard */,
+				A08E1FC32999F18600EB1B68 /* Main.storyboard */,
+				A08E1FC52999F18600EB1B68 /* Activity.storyboard */,
+				A08E1FC62999F18600EB1B68 /* ExerciseEntryStepTwo.storyboard */,
+				A08E1FC72999F18600EB1B68 /* ReadingEntry.storyboard */,
+				A08E1FC82999F18600EB1B68 /* Settings.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0107BA42999EB3B00DDDBEC /* Health Trac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0107BB92999EB3D00DDDBEC /* Build configuration list for PBXNativeTarget "Health Trac" */;
+			buildPhases = (
+				B8016C68459268F422CEAF30 /* [CP] Check Pods Manifest.lock */,
+				A0107BA12999EB3B00DDDBEC /* Sources */,
+				A0107BA22999EB3B00DDDBEC /* Frameworks */,
+				A0107BA32999EB3B00DDDBEC /* Resources */,
+				710F5FE69F4D86F6D9AF28A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health Trac";
+			productName = "Health Trac";
+			productReference = A0107BA52999EB3B00DDDBEC /* Health Trac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0107B9D2999EB3B00DDDBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A0107BA42999EB3B00DDDBEC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A0107BA02999EB3B00DDDBEC /* Build configuration list for PBXProject "Health Trac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0107B9C2999EB3B00DDDBEC;
+			productRefGroup = A0107BA62999EB3B00DDDBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0107BA42999EB3B00DDDBEC /* Health Trac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0107BA32999EB3B00DDDBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08E1FBA2999ED8400EB1B68 /* Montserrat-Black.ttf in Resources */,
+				A0107C602999EB6600DDDBEC /* UpcomingReadingCell.xib in Resources */,
+				A0107C502999EB6600DDDBEC /* SettingsCell.xib in Resources */,
+				A08E1FBD2999ED8400EB1B68 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				A0107C4F2999EB6600DDDBEC /* ScannerTableViewCell.xib in Resources */,
+				A08E1FAD2999ED8400EB1B68 /* Montserrat-LightItalic.ttf in Resources */,
+				A08E1FC92999F18600EB1B68 /* LogBook.storyboard in Resources */,
+				A08E1FD12999F1DE00EB1B68 /* data.json in Resources */,
+				A0107C612999EB6600DDDBEC /* SettingsSectionHeaderCell.xib in Resources */,
+				A08E1FAC2999ED8400EB1B68 /* Localizable.strings in Resources */,
+				A08E1FB02999ED8400EB1B68 /* Montserrat-Light.ttf in Resources */,
+				A0107BB52999EB3D00DDDBEC /* LaunchScreen.storyboard in Resources */,
+				A08E1FCC2999F18600EB1B68 /* Activity.storyboard in Resources */,
+				A08E1FCE2999F18600EB1B68 /* ReadingEntry.storyboard in Resources */,
+				A08E1FB42999ED8400EB1B68 /* Montserrat-Bold.ttf in Resources */,
+				A0107C5E2999EB6600DDDBEC /* GraphTimeSeparatorView.xib in Resources */,
+				A08E1FBE2999ED8400EB1B68 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				A08E1FB62999ED8400EB1B68 /* Montserrat-BlackItalic.ttf in Resources */,
+				A08E1FCB2999F18600EB1B68 /* Main.storyboard in Resources */,
+				A08E1FB72999ED8400EB1B68 /* Montserrat-SemiBold.ttf in Resources */,
+				A08E1FCF2999F18600EB1B68 /* Settings.storyboard in Resources */,
+				A0107C5A2999EB6600DDDBEC /* CustomCalender.xib in Resources */,
+				A08E1FB52999ED8400EB1B68 /* Montserrat-MediumItalic.ttf in Resources */,
+				A08E1FCD2999F18600EB1B68 /* ExerciseEntryStepTwo.storyboard in Resources */,
+				A08E1FAE2999ED8400EB1B68 /* Montserrat-Medium.ttf in Resources */,
+				A0107C552999EB6600DDDBEC /* HomeReadCell.xib in Resources */,
+				A08E1FB82999ED8400EB1B68 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				A08E1FCA2999F18600EB1B68 /* Home.storyboard in Resources */,
+				A08E1FB22999ED8400EB1B68 /* Montserrat-ExtraLight.ttf in Resources */,
+				A0107BB22999EB3D00DDDBEC /* Assets.xcassets in Resources */,
+				A0107C352999EB6600DDDBEC /* AutomaticGlucoseReadingVC.xib in Resources */,
+				A0107C4D2999EB6600DDDBEC /* ActivityTimeHeaderViewCell.xib in Resources */,
+				A08E1FBB2999ED8400EB1B68 /* Montserrat-Regular.ttf in Resources */,
+				A08E1FBC2999ED8400EB1B68 /* Montserrat-Italic.ttf in Resources */,
+				A08E1FB92999ED8400EB1B68 /* Montserrat-ExtraBold.ttf in Resources */,
+				A08E1FB32999ED8400EB1B68 /* Montserrat-Thin.ttf in Resources */,
+				A08E1FAF2999ED8400EB1B68 /* Montserrat-BoldItalic.ttf in Resources */,
+				A08E1FB12999ED8400EB1B68 /* Montserrat-ThinItalic.ttf in Resources */,
+				A0107C542999EB6600DDDBEC /* ActivityReadingCell.xib in Resources */,
+				A0107C572999EB6600DDDBEC /* NavigationBar.xib in Resources */,
+				A0107C5D2999EB6600DDDBEC /* LogbookDetailDataView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		710F5FE69F4D86F6D9AF28A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health Trac/Pods-Health Trac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health Trac/Pods-Health Trac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health Trac/Pods-Health Trac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8016C68459268F422CEAF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health Trac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0107BA12999EB3B00DDDBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0107C3B2999EB6600DDDBEC /* CarbsViewController.swift in Sources */,
+				A08E1F592999ED1700EB1B68 /* DateExtension.swift in Sources */,
+				A0107C462999EB6600DDDBEC /* ReadingsModel.swift in Sources */,
+				A0107C6B2999EB6600DDDBEC /* DeviceScannerView.swift in Sources */,
+				A0107C582999EB6600DDDBEC /* UpcomingReadingCell.swift in Sources */,
+				A0107C422999EB6600DDDBEC /* ReadingStepFour.swift in Sources */,
+				A0107C2A2999EB6600DDDBEC /* AutomaticGlucoseReadingVC.swift in Sources */,
+				A0107C272999EB6600DDDBEC /* LogBookViewController+API.swift in Sources */,
+				A0107C402999EB6600DDDBEC /* ReadingStepTwo.swift in Sources */,
+				A08E1F632999ED1700EB1B68 /* ApiKeys.swift in Sources */,
+				A0107C252999EB6600DDDBEC /* HomeViewController.swift in Sources */,
+				A0107C632999EB6600DDDBEC /* CarbsStepOneView.swift in Sources */,
+				A0107C4A2999EB6600DDDBEC /* ReadingStepFourView.swift in Sources */,
+				A0107C282999EB6600DDDBEC /* LogbookViewController.swift in Sources */,
+				A0107C522999EB6600DDDBEC /* HomeReadCell.swift in Sources */,
+				A0107C412999EB6600DDDBEC /* ReadingStepOne.swift in Sources */,
+				A0107C2C2999EB6600DDDBEC /* ActivityViewController+API.swift in Sources */,
+				A0107C532999EB6600DDDBEC /* SettingsSectionHeaderCell.swift in Sources */,
+				A0107C5C2999EB6600DDDBEC /* LogbookDetailDataView.swift in Sources */,
+				A0107C4B2999EB6600DDDBEC /* ReadingStepThreeView.swift in Sources */,
+				A0107C452999EB6600DDDBEC /* ReadingsRealmModel.swift in Sources */,
+				A0107C6C2999EB6600DDDBEC /* LogbookView.swift in Sources */,
+				A0107C382999EB6600DDDBEC /* CarbsStepTwo.swift in Sources */,
+				A0107C432999EB6600DDDBEC /* DiscoveredPeripheral.swift in Sources */,
+				A0107C642999EB6600DDDBEC /* CarbsStepThreeView.swift in Sources */,
+				A08E1F582999ED1700EB1B68 /* UIImageExtension.swift in Sources */,
+				A0107C622999EB6600DDDBEC /* CarbsView.swift in Sources */,
+				A0107BAD2999EB3B00DDDBEC /* ViewController.swift in Sources */,
+				A0107C692999EB6600DDDBEC /* TabBarControllerView.swift in Sources */,
+				A0107C742999EB6600DDDBEC /* HomeControllerView.swift in Sources */,
+				A0107C712999EB6600DDDBEC /* ExerciseView.swift in Sources */,
+				A0107C732999EB6600DDDBEC /* AutomaticGlucoseReadingView.swift in Sources */,
+				A0107C372999EB6600DDDBEC /* DeviceScannerVC.swift in Sources */,
+				A0107C3D2999EB6600DDDBEC /* CarbsStepThree.swift in Sources */,
+				A0107C392999EB6600DDDBEC /* CarbsStepFour.swift in Sources */,
+				A0107C302999EB6600DDDBEC /* ExerciseStepOne.swift in Sources */,
+				A08E1F682999ED1700EB1B68 /* AppFonts.swift in Sources */,
+				A0107C682999EB6600DDDBEC /* ExerciseEntryStepTwoView.swift in Sources */,
+				A08E1F5B2999ED1700EB1B68 /* GrowingTextView.swift in Sources */,
+				A0107C592999EB6600DDDBEC /* CustomCalender.swift in Sources */,
+				A0107C3A2999EB6600DDDBEC /* CarbsStepFive.swift in Sources */,
+				A0107C292999EB6600DDDBEC /* BaseVC.swift in Sources */,
+				A08E1F5F2999ED1700EB1B68 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				A08E1F5D2999ED1700EB1B68 /* CarouselFlowLayout.swift in Sources */,
+				A0107C652999EB6600DDDBEC /* CarbsStepFiveView.swift in Sources */,
+				A0107C322999EB6600DDDBEC /* ExerciseStepTwo.swift in Sources */,
+				A08E1F4F2999ED1700EB1B68 /* UITextViewExtension.swift in Sources */,
+				A08E1F652999ED1700EB1B68 /* AppStoryboards.swift in Sources */,
+				A0107C3E2999EB6600DDDBEC /* ReadingStepThree.swift in Sources */,
+				A08E1F5A2999ED1700EB1B68 /* UICollectionView+UICollectionViewCellExtension.swift in Sources */,
+				A0107C672999EB6600DDDBEC /* CarbsStepTwoView.swift in Sources */,
+				A08E1F5E2999ED1700EB1B68 /* CircleProgressView.swift in Sources */,
+				A0107C5B2999EB6600DDDBEC /* ActivityTimeHeaderViewCell.swift in Sources */,
+				A0107C472999EB6600DDDBEC /* ReadingView.swift in Sources */,
+				A0107C3F2999EB6600DDDBEC /* ReadingViewController.swift in Sources */,
+				A0107C2D2999EB6600DDDBEC /* ImagePreviewVC.swift in Sources */,
+				A08E1F4E2999ED1700EB1B68 /* UIColorExtension.swift in Sources */,
+				A0107C2F2999EB6600DDDBEC /* ExerciseStepThree.swift in Sources */,
+				A08E1F572999ED1700EB1B68 /* StringExtension.swift in Sources */,
+				A0107C512999EB6600DDDBEC /* SettingsCell.swift in Sources */,
+				A0107C2E2999EB6600DDDBEC /* ExerciseViewController.swift in Sources */,
+				A0107C4E2999EB6600DDDBEC /* ScannerTableViewCell.swift in Sources */,
+				A0107C262999EB6600DDDBEC /* HomeViewController+API.swift in Sources */,
+				A0107C702999EB6600DDDBEC /* ExerciseStepFourView.swift in Sources */,
+				A0107C562999EB6600DDDBEC /* NavigationBar.swift in Sources */,
+				A0107C6E2999EB6600DDDBEC /* ExerciseStepThreeView.swift in Sources */,
+				A0107C6A2999EB6600DDDBEC /* SettingsControllerView.swift in Sources */,
+				A0107C722999EB6600DDDBEC /* ActivityView.swift in Sources */,
+				A08E1F672999ED1700EB1B68 /* AppGlobals.swift in Sources */,
+				A0107C662999EB6600DDDBEC /* CarbsStepFourView.swift in Sources */,
+				A08E1F4C2999ED1700EB1B68 /* NSDataExtension.swift in Sources */,
+				A0107C482999EB6600DDDBEC /* ReadingStepOneView.swift in Sources */,
+				A08E1F502999ED1700EB1B68 /* UILabelExtension.swift in Sources */,
+				A08E1F512999ED1700EB1B68 /* UIApplicationExtension.swift in Sources */,
+				A0107C6F2999EB6600DDDBEC /* ExerciseStepTwoView.swift in Sources */,
+				A0107C5F2999EB6600DDDBEC /* GraphTimeSeparatorView.swift in Sources */,
+				A08E1F4D2999ED1700EB1B68 /* UITableView+ UITableViewCellExtension.swift in Sources */,
+				A0107C492999EB6600DDDBEC /* ReadingStepTwoView.swift in Sources */,
+				A08E1F552999ED1700EB1B68 /* UIDeviceExtension.swift in Sources */,
+				A0107C442999EB6600DDDBEC /* SettingsModel.swift in Sources */,
+				A0107C332999EB6600DDDBEC /* TabBarViewController.swift in Sources */,
+				A08E1F562999ED1700EB1B68 /* DispatchQueueExtension.swift in Sources */,
+				A08E1F622999ED1700EB1B68 /* AppUserDefaults.swift in Sources */,
+				A08E1F662999ED1700EB1B68 /* AppConstants.swift in Sources */,
+				A08E1F532999ED1700EB1B68 /* MultipleExtensions.swift in Sources */,
+				A0107C362999EB6600DDDBEC /* ExerciseEntryStepTwoViewController.swift in Sources */,
+				A08E1F542999ED1700EB1B68 /* UIViewExtension.swift in Sources */,
+				A08E1F692999ED1700EB1B68 /* RealMDbManager.swift in Sources */,
+				A0107BA92999EB3B00DDDBEC /* AppDelegate.swift in Sources */,
+				A0107BAB2999EB3B00DDDBEC /* SceneDelegate.swift in Sources */,
+				A0107C4C2999EB6600DDDBEC /* ActivityReadingCell.swift in Sources */,
+				A0107C242999EB6600DDDBEC /* SettingsViewController.swift in Sources */,
+				A08E1F5C2999ED1700EB1B68 /* TrueTimeManager.swift in Sources */,
+				A0107C312999EB6600DDDBEC /* ExerciseStepFour.swift in Sources */,
+				A08E1F602999ED1700EB1B68 /* DatePicker.swift in Sources */,
+				A08E1FBF2999ED8400EB1B68 /* StringConstant.swift in Sources */,
+				A08E1F522999ED1700EB1B68 /* UIViewControllerExtension.swift in Sources */,
+				A0107C3C2999EB6600DDDBEC /* CarbsStepOne.swift in Sources */,
+				A08E1F612999ED1700EB1B68 /* CommonFunctions.swift in Sources */,
+				A08E1F642999ED1700EB1B68 /* AppColors.swift in Sources */,
+				A0107C6D2999EB6600DDDBEC /* ExerciseStepOneView.swift in Sources */,
+				A0107C2B2999EB6600DDDBEC /* ActivityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0107BB32999EB3D00DDDBEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0107BB42999EB3D00DDDBEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A08E1F962999ED8400EB1B68 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08E1F972999ED8400EB1B68 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A08E1FC32999F18600EB1B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08E1FC42999F18600EB1B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0107BB72999EB3D00DDDBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0107BB82999EB3D00DDDBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0107BBA2999EB3D00DDDBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE9729F910984ABB8E96EDF /* Pods-Health Trac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health Trac/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Krn.Health-Trac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0107BBB2999EB3D00DDDBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91F3D5CED70DA1874222017 /* Pods-Health Trac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health Trac/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Krn.Health-Trac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0107BA02999EB3B00DDDBEC /* Build configuration list for PBXProject "Health Trac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0107BB72999EB3D00DDDBEC /* Debug */,
+				A0107BB82999EB3D00DDDBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0107BB92999EB3D00DDDBEC /* Build configuration list for PBXNativeTarget "Health Trac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0107BBA2999EB3D00DDDBEC /* Debug */,
+				A0107BBB2999EB3D00DDDBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0107B9D2999EB3B00DDDBEC /* Project object */;
+}

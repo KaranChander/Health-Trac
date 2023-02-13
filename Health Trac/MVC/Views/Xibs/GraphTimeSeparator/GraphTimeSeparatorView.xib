@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GraphTimeSeparatorView" customModule="GBS___Saliva_Scanner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="72" height="537"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zq-hn-NGB">
+                    <rect key="frame" x="0.0" y="0.0" width="1" height="537"/>
+                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="5Kh-yX-MAO"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ek0-1Q-KYG">
+                    <rect key="frame" x="5" y="516" width="67" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoN-Fj-k3k">
+                    <rect key="frame" x="5" y="0.0" width="67" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="PoN-Fj-k3k" secondAttribute="trailing" id="4Q3-VK-Pnz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4zq-hn-NGB" secondAttribute="bottom" id="8wY-iJ-yCb"/>
+                <constraint firstItem="PoN-Fj-k3k" firstAttribute="leading" secondItem="4zq-hn-NGB" secondAttribute="trailing" constant="4" id="CfE-Kc-NaR"/>
+                <constraint firstItem="Ek0-1Q-KYG" firstAttribute="bottom" secondItem="4zq-hn-NGB" secondAttribute="bottom" id="Epy-XI-XOB"/>
+                <constraint firstItem="4zq-hn-NGB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="j0O-E3-LNU"/>
+                <constraint firstItem="Ek0-1Q-KYG" firstAttribute="leading" secondItem="4zq-hn-NGB" secondAttribute="trailing" constant="4" id="pYH-jZ-Ox9"/>
+                <constraint firstItem="PoN-Fj-k3k" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="qzz-En-sI9"/>
+                <constraint firstItem="4zq-hn-NGB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="rBe-aF-bdN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ek0-1Q-KYG" secondAttribute="trailing" id="sYm-yl-XbH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="separatorLineView" destination="4zq-hn-NGB" id="sKq-jC-ntt"/>
+                <outlet property="timeLabel" destination="Ek0-1Q-KYG" id="XhF-aI-q8Y"/>
+                <outlet property="topTimeLabel" destination="PoN-Fj-k3k" id="Jgh-FK-uBx"/>
+            </connections>
+            <point key="canvasLocation" x="-426.08695652173918" y="-40.353260869565219"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

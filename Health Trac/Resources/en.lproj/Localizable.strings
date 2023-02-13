@@ -1,0 +1,70 @@
+/*
+ Localize.strings
+ //  Health Track
+ //
+ //  Created by Karan
+ 
+ */
+
+// MARK: -App Title
+//===================
+"NewProject" = "Saliva App";
+
+// MARK: -UIViewController Extension
+//=================================
+"ChooseOptions" = "Choose Options";
+"Camera" = "Camera";
+"CameraNotAvailable" = "Camera not available";
+"ChooseImage" = "Choose image";
+"ChooseFromGallery" = "Choose from Gallery";
+"TakePhoto" = "Take photo";
+"Cancel" = "Cancel";
+"Alert" = "Alert";
+"RestrictedFromUsingCamera" = "You have been restricted from using the camera on this device without camera access this feature wont work.";
+"ChangePrivacySettingAndAllowAccessToCamera" = "Please change your privacy setting from the Settings app and allow access to camera for your app.";
+"RestrictedFromUsingLibrary" = "You have been restricted from using the photo library on this device Without camera access this feature wont work.";
+"ChangePrivacySettingAndAllowAccessToLibrary" = "Please change your privacy setting from the Settings app and allow access to library for your app.";
+"ChangePrivacySettingAndAllowAccessToLocation" = "Please change your privacy setting from the Settings app and allow access to location for your app.";
+
+"removePhoto" = "Remove";
+"openCameraGallery" = "Open Camera & Gallery";
+"writeYourCommentHere" = "Write your comment here...";
+"ok" = "Okay";
+"settings" = "Settings";
+"demoVersion" = "Demo Version 1.1";
+"noActivityDateFound" = "No activity found for this date";
+
+// Tab Bar
+"reading" = "Reading";
+"exercise" = "Exercise";
+"carbs" = "Carbs";
+
+
+// MARK: - Activity VC
+//=====================
+"carbohydrates" = "Carbohydrates";
+"glucoseReading" = "Glucose Reading";
+"upcomingGlucoseReading" = "Upcoming Glucose Reading";
+
+// MARK: - LogBook VC
+//=====================
+"glucose" = "Glucose";
+"minutes" = "Minutes";
+"grams" = "Grams";
+
+// MARK: - Automatic Glucose reading
+//=====================================
+"selectDevice"  = "Select Device";
+"selectYourGBSScannerDevice" = "Select your GBS Scanner Device";
+"processing" = "Processing";
+"manualGlucoseEntry" = "Manual Glucose Entry";
+"discardChanges" = "Discard Changes?";
+"discardChangesDesc" = "Are you sure you want to discard your glucose reading?";
+"readingReceived" = "Reading received";
+
+// MARK: - Home VC
+//=====================
+"thereAreNoReadings" = "There are no readings";
+"bloodSugarTargetRange" = "Your blood sugar is within your target range";
+"pleaseEnterDescription" = "Please add a note for your reading";
+

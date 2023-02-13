@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Activity View Controller-->
+        <scene sceneID="mVo-kU-OXc">
+            <objects>
+                <viewController storyboardIdentifier="ActivityViewController" id="zNm-za-hOF" customClass="ActivityViewController" customModule="GBS___Saliva_Scanner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aac-El-W7H" customClass="ActivityView" customModule="GBS___Saliva_Scanner" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNy-Qm-3u4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Zn6-xg-TY1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="nVd-1y-aOz"/>
+                                </constraints>
+                                <blurEffect style="prominent"/>
+                            </visualEffectView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xJ7-UY-iPv">
+                                <rect key="frame" x="0.0" y="145" width="414" height="751"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IU-Bn-4eO">
+                                <rect key="frame" x="18" y="88" width="108.5" height="36"/>
+                                <connections>
+                                    <action selector="calenderButtonTapped:" destination="Aac-El-W7H" eventType="touchUpInside" id="hfS-Ng-AfK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jun 26, 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uig-bN-Dcc">
+                                <rect key="frame" x="18" y="88" width="108.5" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="iZM-Lo-FLJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGw-3Y-yUz">
+                                <rect key="frame" x="18" y="61" width="60" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="1AH-0n-zbG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gpd-tV-s2z"/>
+                        <constraints>
+                            <constraint firstItem="1IU-Bn-4eO" firstAttribute="top" secondItem="uig-bN-Dcc" secondAttribute="top" id="4Tc-Co-3hu"/>
+                            <constraint firstItem="1IU-Bn-4eO" firstAttribute="trailing" secondItem="uig-bN-Dcc" secondAttribute="trailing" id="8D9-ex-Fok"/>
+                            <constraint firstItem="uig-bN-Dcc" firstAttribute="top" secondItem="AGw-3Y-yUz" secondAttribute="bottom" constant="-1" id="94R-7u-IEU"/>
+                            <constraint firstItem="uig-bN-Dcc" firstAttribute="leading" secondItem="AGw-3Y-yUz" secondAttribute="leading" id="9BO-o9-pb8"/>
+                            <constraint firstItem="1IU-Bn-4eO" firstAttribute="bottom" secondItem="uig-bN-Dcc" secondAttribute="bottom" id="FgT-b0-baQ"/>
+                            <constraint firstItem="xJ7-UY-iPv" firstAttribute="top" secondItem="uig-bN-Dcc" secondAttribute="bottom" constant="21" id="KCo-DJ-gsm"/>
+                            <constraint firstItem="AGw-3Y-yUz" firstAttribute="top" secondItem="Aac-El-W7H" secondAttribute="top" constant="61" id="TdA-C4-gXO"/>
+                            <constraint firstItem="1IU-Bn-4eO" firstAttribute="leading" secondItem="uig-bN-Dcc" secondAttribute="leading" id="ThS-hA-m2L"/>
+                            <constraint firstItem="gpd-tV-s2z" firstAttribute="trailing" secondItem="lNy-Qm-3u4" secondAttribute="trailing" id="W6N-fM-HtR"/>
+                            <constraint firstItem="gpd-tV-s2z" firstAttribute="trailing" secondItem="xJ7-UY-iPv" secondAttribute="trailing" id="ZRi-3c-CFu"/>
+                            <constraint firstItem="lNy-Qm-3u4" firstAttribute="top" secondItem="Aac-El-W7H" secondAttribute="top" id="avH-3F-JNC"/>
+                            <constraint firstItem="xJ7-UY-iPv" firstAttribute="leading" secondItem="gpd-tV-s2z" secondAttribute="leading" id="fh7-U9-8jH"/>
+                            <constraint firstItem="AGw-3Y-yUz" firstAttribute="leading" secondItem="gpd-tV-s2z" secondAttribute="leading" constant="18" id="h9N-of-42Z"/>
+                            <constraint firstItem="lNy-Qm-3u4" firstAttribute="leading" secondItem="gpd-tV-s2z" secondAttribute="leading" id="mFZ-Qd-xtG"/>
+                            <constraint firstItem="xJ7-UY-iPv" firstAttribute="bottom" secondItem="Aac-El-W7H" secondAttribute="bottom" id="pSE-xX-ZXc"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="activityTableView" destination="xJ7-UY-iPv" id="Ckv-oR-THZ"/>
+                            <outlet property="calenderButton" destination="1IU-Bn-4eO" id="8qu-Bt-wfa"/>
+                            <outlet property="dateLabel" destination="uig-bN-Dcc" id="6qb-RI-jYu"/>
+                            <outlet property="dayLabel" destination="AGw-3Y-yUz" id="OvH-E7-9Lq"/>
+                            <outlet property="headerBlurView" destination="lNy-Qm-3u4" id="VEB-AM-RWw"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="Aac-El-W7H" id="foB-MS-4gn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7yS-Db-8aT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-497.10144927536237" y="841.74107142857144"/>
+        </scene>
+    </scenes>
+</document>
