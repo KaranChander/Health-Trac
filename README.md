@@ -22,3 +22,7 @@
 - Dark mode: The app supports dark mode for a more comfortable viewing experience in low-light environments.
 - Custom calendar: Users can choose a specific date from the custom calendar to view their health data for that day.
 - Realm database: The app uses Realm as its local database, ensuring fast and efficient storage and retrieval of user data.
+
+## Future Update
+
+- Making the graph dynamic
