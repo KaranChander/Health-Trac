@@ -1,6 +1,7 @@
 
 # Health Tracking Application
 > Health Trac is an iOS app designed to help users track their glucose levels, exercise, and carb intake. The app provides a comprehensive and convenient solution for individuals who need to monitor their health on a regular basis.
+> Input your health readings which will be saved locally and this way you can keep track of your activities.
 
 ## Prerequisites
 - Xcode 11.0 or later
@@ -9,10 +10,15 @@
 - Knowledge of Swift programming language and iOS development
 
 # Preview
-![](https://drive.google.com/uc?id=1hwENy7bu_4boAJT80PfM5TDikGz_cLwH)
+https://user-images.githubusercontent.com/36597393/221649326-97a5db32-aeee-409b-9bf4-c4b30093b746.mp4
+
+# Input Data:
+https://user-images.githubusercontent.com/36597393/221650854-32b84228-221c-4600-b5d1-6f157449fca8.mp4
+
 
 # Dark/Light Mode Preview
-![](https://drive.google.com/uc?id=1hNQrSWGUikeXynfmutOUQtntZJwRhjnJ)
+https://user-images.githubusercontent.com/36597393/221649590-c4f3e220-ef43-4f3f-9788-9dbd4c8c0c34.mp4
+
 
 ## Features
 
