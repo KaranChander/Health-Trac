@@ -31,14 +31,7 @@ class SettingsViewController: UIViewController {
     func initialSetup() {
         settingsView.backgroundColor = UIColor(light: .white, dark: .black)
         settingsModel = [0:
-                            [SettingsModel(title: StringConstant.defaultUnits.rawValue, isSwitch: false, isArrow: true, isSubTitle: true, subTitleLabel: StringConstant.mmolL.rawValue),
-                             SettingsModel(title: StringConstant.notifications.rawValue, isSwitch: false, isArrow: true, isSubTitle: false, subTitleLabel: ""),
-                             SettingsModel(title: StringConstant.stripDetection.rawValue, isSwitch: true, isArrow: false, isSubTitle: false, subTitleLabel: "")],
-                          1:
-                            [SettingsModel(title: StringConstant.language.rawValue, isSwitch: false, isArrow: true, isSubTitle: true, subTitleLabel: StringConstant.english.rawValue),
-                             SettingsModel(title: StringConstant.darkMode.rawValue, isSwitch: true, isArrow: false, isSubTitle: false, subTitleLabel: "", isSwitchOn: self.darkModeStatus()),
-                             SettingsModel(title: StringConstant.backgroungRefresh.rawValue, isSwitch: true, isArrow: false, isSubTitle: false, subTitleLabel: ""),
-                             SettingsModel(title: StringConstant.notifications.rawValue, isSwitch: false, isArrow: true, isSubTitle: false, subTitleLabel: "")]]
+                            [SettingsModel(title: StringConstant.darkMode.rawValue, isSwitch: true, isArrow: false, isSubTitle: false, subTitleLabel: "", isSwitchOn: self.darkModeStatus())]]
         settingsView.settingsTableView.allowsSelection = false
         settingsView.settingsTableView.delegate = self
         settingsView.settingsTableView.dataSource = self

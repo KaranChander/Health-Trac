@@ -161,19 +161,19 @@ extension AutomaticGlucoseReadingVC: CBPeripheralDelegate {
                     switch readingValue[1] {
                     case "1":
                         self.model.glucoseUnit = GlucoseUnits.mmol.rawValue
-                        if self.model.glucoseReading < 2.8 {
-                            self.model.glucoseReadingType = glucoseReadingsType.saliva.rawValue
-                        } else {
+//                        if self.model.glucoseReading < 2.8 {
+//                            self.model.glucoseReadingType = glucoseReadingsType.saliva.rawValue
+//                        } else {
                             self.model.glucoseReadingType = glucoseReadingsType.blood.rawValue
-                        }
+//                        }
                         
                     case "2":
                         self.model.glucoseUnit = GlucoseUnits.mgdl.rawValue
-                        if self.model.glucoseReading < 50 {
-                            self.model.glucoseReadingType = glucoseReadingsType.saliva.rawValue
-                        } else {
+//                        if self.model.glucoseReading < 50 {
+//                            self.model.glucoseReadingType = glucoseReadingsType.saliva.rawValue
+//                        } else {
                             self.model.glucoseReadingType = glucoseReadingsType.blood.rawValue
-                        }
+//                        }
                     default:
                         break
                     }

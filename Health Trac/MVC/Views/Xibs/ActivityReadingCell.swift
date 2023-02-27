@@ -79,7 +79,7 @@ class ActivityReadingCell: UITableViewCell {
             
         ///READING TYPE - GLUCOSE
         case ReadingsType.glucose.rawValue:
-            self.titleLabel.text = latest ? "Latest \(model.glucoseReadingType.capitalizedFirst) \(StringConstant.reading.value)" : "\(model.glucoseReadingType.capitalizedFirst) \(StringConstant.reading.value)"
+            self.titleLabel.text = latest ? "Latest Glucose \(StringConstant.reading.value)" : "Glucose \(StringConstant.reading.value)"
             self.titleLabel.textColor = AppColors.pinkishOrange
             sideBarView.backgroundColor = AppColors.pinkishOrange
             if model.userDescription == "" {

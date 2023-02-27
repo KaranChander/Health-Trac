@@ -33,11 +33,11 @@ class ReadingStepTwo: UIViewController {
         } else {
             glucoseUnit = GlucoseUnits.mgdl.rawValue
         }
-        if self.readingStepwoView.pickerView.selectedRow(inComponent: 1) == 0 || self.readingStepwoView.pickerView.selectedRow(inComponent: 1) == 1 {
+//        if self.readingStepwoView.pickerView.selectedRow(inComponent: 1) == 0 || self.readingStepwoView.pickerView.selectedRow(inComponent: 1) == 1 {
             readingType = glucoseReadingsType.blood.rawValue
-        } else {
-            readingType = glucoseReadingsType.saliva.rawValue
-        }
+//        } else {
+//            readingType = glucoseReadingsType.saliva.rawValue
+//        }
     }
     
 }

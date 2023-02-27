@@ -24,7 +24,7 @@ extension HomeViewController {
         var readings: [GlucoseReading] = []
         if filteredDates.count > 0 {
             let firstReading = filteredDates[0]
-            self.homeView.pageControl.numberOfPages = 4
+            self.homeView.pageControl.numberOfPages = 2
             self.readingLevel = filteredDates[0].readingLevel
             self.glucoseReadingType = filteredDates[0].glucoseReadingType
             var reading = GlucoseReading()

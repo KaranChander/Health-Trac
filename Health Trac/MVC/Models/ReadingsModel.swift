@@ -66,7 +66,7 @@ struct AutomaticGlucoseReading {
 }
 
 enum glucoseReadingsType: String {
-    case saliva = "Saliva Glucose"
+//    case saliva = "Saliva Glucose"
     case blood = "Blood Glucose"
 }
 

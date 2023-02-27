@@ -14,7 +14,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:44 AM",
@@ -56,7 +56,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "1:23 PM",
@@ -84,7 +84,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "7:01 PM",
@@ -112,7 +112,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       }
     ]
   },
@@ -131,7 +131,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "6:03 PM",
@@ -159,7 +159,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "12:31 PM",
@@ -187,7 +187,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:28 AM",
@@ -215,7 +215,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "5:31 AM",
@@ -248,7 +248,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "6:17 PM",
@@ -276,7 +276,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "1:47 PM",
@@ -304,7 +304,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "10:04 AM",
@@ -346,7 +346,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "5:56 AM",
@@ -379,7 +379,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:44 AM",
@@ -421,7 +421,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "1:23 PM",
@@ -449,7 +449,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "7:01 PM",
@@ -477,7 +477,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       }
     ]
   },
@@ -496,7 +496,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "6:03 PM",
@@ -524,7 +524,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "12:31 PM",
@@ -552,7 +552,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:28 AM",
@@ -580,7 +580,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "5:31 AM",
@@ -613,7 +613,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:44 AM",
@@ -655,7 +655,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "1:23 PM",
@@ -683,7 +683,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "7:01 PM",
@@ -711,7 +711,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       }
     ]
   },
@@ -730,7 +730,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Final glucose reading before bed.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "6:17 PM",
@@ -758,7 +758,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-dinner glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "1:47 PM",
@@ -786,7 +786,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Took glucose reading ~30 minutes before lunch.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "10:04 AM",
@@ -828,7 +828,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "5:56 AM",
@@ -875,7 +875,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Pre-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       },
       {
         "time": "8:34 AM",
@@ -917,7 +917,7 @@
         "carbsReading": "",
         "carbsMedia": "",
         "userDescription": "Post-breakfast glucose reading.",
-        "glucoseReadingType": "Saliva Glucose"
+        "glucoseReadingType": "Glucose"
       }
     ]
   }

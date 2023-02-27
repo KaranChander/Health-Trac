@@ -83,7 +83,7 @@ class HomeControllerView: UIView {
         carouselFlowLayout.spacingMode = .fixed(spacing: -48)
         homeReadCollectionView.collectionViewLayout = carouselFlowLayout
         pageControl.layer.cornerRadius = pageControl.frame.height/2
-        pageControl.numberOfPages = 3
+        pageControl.numberOfPages = 1
 //        pageControl.PageControlBorderWidth = 1
         pageControl.radius = 6
         pageControl.inactiveTransparency = 0
@@ -152,11 +152,11 @@ class HomeControllerView: UIView {
     
     func updateGlucoseTypeLabel(index: Int) {
         glucoseTypeLabel.fadeTransition(0.4)
-        if index < 2 {
+//        if index < 2 {
             glucoseTypeLabel.text = glucoseReadingsType.blood.rawValue
-        } else {
-            glucoseTypeLabel.text = glucoseReadingsType.saliva.rawValue
-        }
+//        } else {
+//            glucoseTypeLabel.text = glucoseReadingsType.saliva.rawValue
+//        }
     }
 }
 

@@ -124,7 +124,7 @@ class HomeViewController: UIViewController {
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if self.readingsArray.count >= 1 {
-            return 4
+            return 2
         } else {
             return self.readingsArray.isEmpty ? 1 : self.readingsArray.count
         }

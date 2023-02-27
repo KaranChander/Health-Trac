@@ -510,7 +510,7 @@ class LogbookView: UIView {
         if reading.readingType == ReadingsType.glucose.rawValue {
             self.logbookDetailDataView.sideView.backgroundColor = AppColors.brightPinkishOrange
             self.logbookDetailDataView.backgroundColor = AppColors.brightPinkishOrange.withAlphaComponent(0.3)
-            self.logbookDetailDataView.headLabel.text = "\(reading.glucoseReadingType.capitalizedFirst) Reading"
+            self.logbookDetailDataView.headLabel.text = "Glucose Reading"
             self.logbookDetailDataView.headLabel.textColor = AppColors.brightPinkishOrange
             self.logbookDetailDataView.timeLabel.textColor = AppColors.brightPinkishOrange
             let createdTime = reading.createdAt.split(separator: "-")
