@@ -1,0 +1,74 @@
+PODS:
+  - AnimatedCollectionViewLayout (1.1.0)
+  - CHIPageControl (0.1.8):
+    - CHIPageControl/Aji (= 0.1.8)
+    - CHIPageControl/Aleppo (= 0.1.8)
+    - CHIPageControl/Chimayo (= 0.1.8)
+    - CHIPageControl/Fresno (= 0.1.8)
+    - CHIPageControl/Jalapeno (= 0.1.8)
+    - CHIPageControl/Jaloro (= 0.1.8)
+    - CHIPageControl/Paprika (= 0.1.8)
+    - CHIPageControl/Puya (= 0.1.8)
+  - CHIPageControl/Aji (0.1.8)
+  - CHIPageControl/Aleppo (0.1.8)
+  - CHIPageControl/Chimayo (0.1.8)
+  - CHIPageControl/Fresno (0.1.8)
+  - CHIPageControl/Jalapeno (0.1.8)
+  - CHIPageControl/Jaloro (0.1.8)
+  - CHIPageControl/Paprika (0.1.8)
+  - CHIPageControl/Puya (0.1.8)
+  - EmptyDataSet-Swift (5.0.0)
+  - FSCalendar (2.8.4)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Realm (10.35.1):
+    - Realm/Headers (= 10.35.1)
+  - Realm/Headers (10.35.1)
+  - RealmSwift (10.35.1):
+    - Realm (= 10.35.1)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftyJSON (5.0.1)
+  - Toaster (2.3.0)
+  - TrueTime (5.0.3)
+
+DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - CHIPageControl (~> 0.1.3)
+  - EmptyDataSet-Swift
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - SwiftKeychainWrapper
+  - SwiftyJSON
+  - Toaster
+  - TrueTime
+
+SPEC REPOS:
+  trunk:
+    - AnimatedCollectionViewLayout
+    - CHIPageControl
+    - EmptyDataSet-Swift
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+    - SwiftKeychainWrapper
+    - SwiftyJSON
+    - Toaster
+    - TrueTime
+
+SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 0c1a38c4be115c525c887be183fc91ef65737c5d
+  CHIPageControl: 76b35c8309d8dd155e869c109cc6ffc0aaa465ff
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Realm: ee5a67274a2c338dec50f5e01a811b6b8d657a10
+  RealmSwift: 82f822142caa1e6ab96d3ea30bc83233e3d78ea3
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+  TrueTime: b49551ffafb28a9dee04e51b226f42a416010842
+
+PODFILE CHECKSUM: f7f486de4304cee0d3830b94bbb34cfad528aacb
+
+COCOAPODS: 1.11.3
